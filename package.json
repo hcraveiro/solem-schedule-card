@@ -1,0 +1,21 @@
+{
+  "name": "solem-schedule-card",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Solem Schedule Card",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com:hcraveiro/solem-schedule-card"
+  },
+  "author": "Henrique Craveiro",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "keywords": ["homeassistant", "custom-card", "solem", "schedule"]
+}
