@@ -1,9 +1,19 @@
 # Home Assistant Solem Schedule Card
 
+> [!IMPORTANT]
+> **DEPRECATED — No longer maintained.**
+>
+> This card belongs to the retired [Solem Bluetooth Watering Controller](https://github.com/hcraveiro/Home-Assistant-Solem-Bluetooth-Watering-Controller). For new installations use [Smart Water Controller](https://github.com/hcraveiro/Home-Assistant-Smart-Water-Controller) and its maintained schedule card, with [Solem Toolkit](https://github.com/hcraveiro/Home-Assistant-Solem-Toolkit) for compatible BLE hardware.
+>
+> **Manual migration:** install Smart Water Controller, configure its Solem Toolkit method, recreate schedules, and replace `custom:solem-schedule-card` with `custom:smart-water-controller-schedule-card`. Check entity IDs and test manual Start/Stop before enabling automatic schedules. **Disable old schedules first** to prevent duplicate watering. Settings are not automatically migrated.
+>
+> The legacy card remains available as historical reference; no new features or bug fixes are planned.
+
+
 [![hacs_badge](https://img.shields.io/badge/HACS-Default-41BDF5.svg)](https://github.com/hacs/integration)
 [![GitHub release](https://img.shields.io/github/release/hcraveiro/Home-Assistant-Solem-Schedule-Card.svg)](https://github.com/hcraveiro/Home-Assistant-Solem-Schedule-Card/releases/)
 
-Configure your schedule on your Solem Watering Bluetooth Controller integration on your Home Assistant.
+Legacy schedule editor for the deprecated Solem Bluetooth Watering Controller integration. Not recommended for new installations.
 
 - [Home Assistant Solem Schedule Card](#home-assistant-solem-schedule-card)
     - [Installation](#installation)
